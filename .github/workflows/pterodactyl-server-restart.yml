@@ -1,0 +1,15 @@
+name: Restart Pterodactyl
+
+on: [ push ]
+
+jobs:
+  restart:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Restart Pterodactyl
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: https://pterodactyl.lilsadpanda.tk/api/client/servers/853e83a5/power
+        method: POST
+        bearerToken: ${{ secrets.BEARER_TOKEN }}
+        data: '{ "signal": "restart" }'
