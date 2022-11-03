@@ -1,7 +1,7 @@
 <template>
   <header>
   </header>
-  <div class="grid h-screen place-items-center">
+  <div class="grid h-screen place-items-center bg-neutral-focus">
     <div class="card w-96 bg-base-100 shadow-xl">
       <figure class="px-10 pt-10">
         <div class="avatar">
@@ -28,7 +28,7 @@
             </div>
           </div>
         </div>
-        <label class="btn btn-sm btn-primary" for="modal-share">
+        <label class="btn btn-sm btn-neutral-focus" for="modal-share">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round"
