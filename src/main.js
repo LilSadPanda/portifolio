@@ -1,6 +1,14 @@
-import { createApp } from 'vue'
+import { createApp, onMounted } from 'vue'
 import App from './App.vue'
+import { themeChange } from 'theme-change'
 
-import './assets/main.css'
+export default {
+  setup() {
+    onMounted(() => {
+      themeChange(false)
+    })
+  },
+}
+import './main.css'
 
 createApp(App).mount('#app')
