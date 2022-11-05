@@ -3,7 +3,7 @@
   </header>
   <main>
     <div class="grid h-screen place-items-center bg-neutral-focus">
-      <div class="card w-96 bg-base-100 shadow-xl">
+      <div class="card w-80 bg-base-100 shadow-xl">
         <figure class="px-10 pt-10">
           <div class="avatar">
             <div class="w-24 mask mask-squircle">
