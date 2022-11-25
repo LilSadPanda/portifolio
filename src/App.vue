@@ -16,7 +16,7 @@
             <div class="text-center">
               <div class="text-lg font-extrabold">Juan Thiart</div>
               <div class="my-3">I like making things.</div>
-              <div class="text-sm">Technologies Used:</div>
+              <div class="text-sm">Technologies Used In The Past:</div>
             </div>
             <div class="mt-2 text-center space-x-1">
               <div class="badge badge-ghost">NodeJS</div>
